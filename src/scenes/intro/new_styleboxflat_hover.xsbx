@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="StyleBoxFlat" subresource_count="1" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<main_resource>
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+		<color name="bg_color"> 0.247385, 0.244132, 1, 0.437118 </color>
+		<color name="light_color"> 0.40539, 0.441204, 1, 0.786658 </color>
+		<color name="dark_color"> 0.18978, 0.262473, 0.8, 1 </color>
+		<int name="border_size"> 0 </int>
+		<bool name="border_blend"> False </bool>
+		<bool name="draw_bg"> True </bool>
+
+	</main_resource>
+</resource_file>

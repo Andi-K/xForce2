@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="13" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://gui/geoscape/geocape.gd" type="Script"></ext_resource>
+	<ext_resource path="res://theme/small.fnt" type="Font"></ext_resource>
+	<ext_resource path="res://gui/geoscape/xforce1-9.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/geoscape/xforce1-12.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/geoscape/xforce1-3.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/geoscape/xforce1-84.jpg" type="Texture"></ext_resource>
+	<ext_resource path="res://theme/geoscape.fnt" type="Font"></ext_resource>
+	<ext_resource path="res://theme/small.fnt" type="Font"></ext_resource>
+	<ext_resource path="res://theme/schablone2.fnt" type="Font"></ext_resource>
+	<ext_resource path="res://theme/default.fnt" type="Font"></ext_resource>
+	<ext_resource path="res://theme/small2.fnt" type="Font"></ext_resource>
+	<resource type="Theme" path="local://1">
+		<resource name="default_font" resource_type="Font" path="res://theme/small.fnt">  </resource>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 1 </int>
+			<string> "conns" </string>
+			<int_array  len="6"> 				15, 0, 107, 106, 2, 0 </int_array>
+			<string> "names" </string>
+			<string_array  len="108">
+				<string> "Geoscape" </string>
+				<string> "Control" </string>
+				<string> "_import_path" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/light_mask" </string>
+				<string> "anchor/right" </string>
+				<string> "anchor/bottom" </string>
+				<string> "focus_neighbour/left" </string>
+				<string> "focus_neighbour/top" </string>
+				<string> "focus_neighbour/right" </string>
+				<string> "focus_neighbour/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "size_flags/stretch_ratio" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Background" </string>
+				<string> "TextureFrame" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "texture" </string>
+				<string> "modulate" </string>
+				<string> "expand" </string>
+				<string> "TabContainer" </string>
+				<string> "margin/top" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "tab_align" </string>
+				<string> "tabs_visible" </string>
+				<string> "X-Force FFD - Geoscape" </string>
+				<string> "margin/left" </string>
+				<string> "X-Force FFD - Solders" </string>
+				<string> "X-Force FFD - Combat" </string>
+				<string> "X-Force FFD -UFOpedia (planed)" </string>
+				<string> "text" </string>
+				<string> "Label" </string>
+				<string> "range/min" </string>
+				<string> "range/max" </string>
+				<string> "range/step" </string>
+				<string> "range/page" </string>
+				<string> "range/value" </string>
+				<string> "range/exp_edit" </string>
+				<string> "rounded_values" </string>
+				<string> "align" </string>
+				<string> "valign" </string>
+				<string> "autowrap" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "Menue" </string>
+				<string> "theme/theme" </string>
+				<string> "ButtonArray0" </string>
+				<string> "VButtonArray" </string>
+				<string> "button/count" </string>
+				<string> "button/min_button_size" </string>
+				<string> "button/align" </string>
+				<string> "button/0/text" </string>
+				<string> "button/0/icon" </string>
+				<string> "button/1/text" </string>
+				<string> "button/1/icon" </string>
+				<string> "button/2/text" </string>
+				<string> "button/2/icon" </string>
+				<string> "button/selected" </string>
+				<string> "ButtonArray1" </string>
+				<string> "button/3/text" </string>
+				<string> "button/3/icon" </string>
+				<string> "ButtonArray2" </string>
+				<string> "ButtonArray4" </string>
+				<string> "Menu2" </string>
+				<string> "button/4/text" </string>
+				<string> "button/4/icon" </string>
+				<string> "AcceptDialog" </string>
+				<string> "popup/exclusive" </string>
+				<string> "window/title" </string>
+				<string> "RichTextLabel" </string>
+				<string> "custom_fonts/italics_font" </string>
+				<string> "custom_fonts/bold_font" </string>
+				<string> "custom_fonts/normal_font" </string>
+				<string> "bbcode/enabled" </string>
+				<string> "bbcode/bbcode" </string>
+				<string> "DateTime" </string>
+				<string> "DateTime1" </string>
+				<string> "GridContainer" </string>
+				<string> "columns" </string>
+				<string> "DateTime2" </string>
+				<string> "rect/min_size" </string>
+				<string> "DateTime4" </string>
+				<string> "DateTime5" </string>
+				<string> "DateTime6" </string>
+				<string> "DateTime7" </string>
+				<string> "GridContainer1" </string>
+				<string> "CheckBox" </string>
+				<string> "hint/tooltip" </string>
+				<string> "disabled" </string>
+				<string> "toggle_mode" </string>
+				<string> "is_pressed" </string>
+				<string> "click_on_press" </string>
+				<string> "icon" </string>
+				<string> "flat" </string>
+				<string> "clip_text" </string>
+				<string> "DateTime3" </string>
+				<string> "CheckBox1" </string>
+				<string> "CheckBox2" </string>
+				<string> "GridContainer2" </string>
+				<string> "_on_RichTextLabel_meta_clicked" </string>
+				<string> "meta_clicked" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 41 </int>
+			<string> "nodes" </string>
+			<int_array  len="2509"> 				-1, -1, 1, 0, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 18, 6, 19, 7, 0, 0, 0, 21, 20, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 8, 23, 9, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 16, 5, 17, 2, 24, 10, 25, 11, 26, 1, 0, 1, 0, 27, 27, -1, 20, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 12, 22, 13, 23, 14, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 29, 15, 30, 3, 31, 1, 0, 2, 0, 21, 32, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 33, 16, 28, 17, 22, 16, 23, 16, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 16, 5, 17, 2, 24, 18, 25, 19, 26, 4, 0, 2, 0, 21, 34, -1, 23, 2, 0, 3, 4, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 33, 16, 28, 17, 22, 16, 23, 16, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 16, 5, 17, 2, 24, 20, 25, 19, 26, 4, 0, 2, 0, 21, 35, -1, 23, 2, 0, 3, 4, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 33, 16, 28, 17, 22, 16, 23, 16, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 16, 5, 17, 2, 24, 21, 25, 19, 26, 4, 0, 2, 0, 21, 36, -1, 23, 2, 0, 3, 4, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 33, 16, 28, 17, 22, 16, 23, 16, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 16, 5, 17, 2, 24, 22, 25, 19, 26, 4, 0, 1, 0, 38, 37, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 23, 28, 24, 22, 25, 23, 26, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 27, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 29, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 1, 51, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 32, 28, 33, 22, 8, 23, 34, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 52, 35, 0, 8, 0, 54, 53, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 36, 22, 37, 23, 38, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 55, 39, 56, 31, 57, 3, 58, 40, 59, 10, 60, 41, 61, 10, 62, 42, 63, 10, 64, 30, 0, 8, 0, 54, 65, -1, 29, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 43, 22, 37, 23, 44, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 55, 45, 56, 31, 57, 3, 58, 46, 59, 10, 60, 47, 61, 10, 62, 48, 63, 10, 66, 49, 67, 10, 64, 30, 0, 8, 0, 54, 68, -1, 29, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 50, 22, 37, 23, 51, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 55, 45, 56, 31, 57, 3, 58, 52, 59, 10, 60, 53, 61, 10, 62, 54, 63, 10, 66, 55, 67, 10, 64, 30, 0, 8, 0, 54, 69, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 23, 22, 37, 23, 56, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 55, 39, 56, 31, 57, 30, 58, 57, 59, 10, 60, 58, 61, 10, 62, 59, 63, 10, 64, 30, 0, 8, 0, 54, 70, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 60, 22, 24, 23, 61, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 55, 62, 56, 31, 57, 5, 58, 63, 59, 10, 60, 64, 61, 10, 62, 65, 63, 10, 66, 66, 67, 10, 71, 67, 72, 10, 64, 30, 0, 0, 0, 73, 73, -1, 20, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 68, 28, 37, 22, 13, 23, 56, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 74, 1, 75, 69, 0, 14, 0, 76, 76, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 36, 28, 36, 22, 70, 23, 71, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 77, 72, 78, 73, 79, 73, 80, 1, 81, 74, 0, 0, 0, 38, 82, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 75, 28, 36, 22, 76, 23, 77, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 27, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 78, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 38, 83, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 79, 28, 36, 22, 80, 23, 81, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 82, 41, 2, 42, 82, 43, 28, 44, 4, 45, 4, 37, 83, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 84, 84, -1, 20, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 36, 28, 33, 22, 84, 23, 24, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 4, 15, 5, 16, 5, 17, 2, 85, 5, 19, 85, 0, 18, 0, 38, 86, -1, 29, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 86, 23, 87, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 88, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 18, 0, 38, 38, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 89, 22, 90, 23, 36, 87, 91, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 2, 41, 2, 42, 92, 43, 28, 44, 4, 45, 4, 37, 93, 46, 30, 47, 30, 48, 1, 49, 4, 50, 31, 0, 18, 0, 38, 88, -1, 30, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 94, 22, 86, 23, 95, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 97, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 18, 0, 38, 89, -1, 32, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 89, 28, 94, 22, 90, 23, 95, 87, 91, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 98, 46, 30, 47, 30, 48, 1, 49, 4, 50, 31, 0, 18, 0, 38, 90, -1, 30, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 99, 22, 86, 23, 100, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 15, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 101, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 18, 0, 38, 91, -1, 32, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 89, 28, 102, 22, 90, 23, 103, 87, 91, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 15, 39, 28, 40, 2, 41, 2, 42, 104, 43, 28, 44, 4, 45, 4, 37, 105, 46, 30, 47, 30, 48, 1, 49, 4, 50, 31, 0, 0, 0, 38, 86, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 36, 28, 36, 22, 106, 23, 107, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 108, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 84, 92, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 79, 28, 33, 22, 109, 23, 110, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 4, 15, 5, 16, 5, 17, 2, 85, 39, 0, 26, 0, 93, 93, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 111, 23, 112, 94, 113, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 95, 4, 96, 1, 97, 4, 98, 4, 37, 114, 99, 10, 100, 4, 101, 4, 46, 3, 0, 26, 0, 38, 86, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 115, 28, 2, 22, 116, 23, 87, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 88, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 26, 0, 38, 102, -1, 32, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 117, 28, 2, 22, 118, 23, 87, 87, 119, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 120, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 26, 0, 93, 103, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 111, 22, 111, 23, 121, 94, 113, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 95, 4, 96, 1, 97, 1, 98, 4, 37, 114, 99, 10, 100, 4, 101, 1, 46, 3, 0, 26, 0, 38, 88, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 115, 28, 122, 22, 116, 23, 123, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 97, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 26, 0, 38, 89, -1, 32, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 117, 28, 122, 22, 118, 23, 123, 87, 119, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 124, 46, 30, 47, 30, 48, 1, 49, 4, 50, 31, 0, 26, 0, 93, 104, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 125, 22, 111, 23, 126, 94, 113, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 95, 4, 96, 1, 97, 4, 98, 4, 37, 114, 99, 10, 100, 4, 101, 4, 46, 3, 0, 26, 0, 38, 90, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 115, 28, 127, 22, 116, 23, 128, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 129, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 26, 0, 38, 91, -1, 32, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 117, 28, 127, 22, 118, 23, 128, 87, 119, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 82, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 130, 46, 30, 47, 30, 48, 1, 49, 4, 50, 31, 0, 0, 0, 38, 102, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 131, 28, 132, 22, 133, 23, 134, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 135, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 84, 105, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 131, 28, 136, 22, 137, 23, 14, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 4, 15, 5, 16, 5, 17, 2, 85, 3, 0, 37, 0, 38, 86, -1, 29, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 138, 23, 36, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 96, 39, 28, 40, 2, 41, 2, 42, 2, 43, 28, 44, 4, 45, 4, 37, 139, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 38, 88, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 140, 28, 110, 22, 141, 23, 142, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 82, 41, 2, 42, 82, 43, 28, 44, 4, 45, 4, 37, 143, 46, 3, 47, 30, 48, 4, 49, 4, 50, 31, 0, 0, 0, 38, 89, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 33, 75, 28, 33, 22, 144, 23, 145, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 29, 72, 39, 28, 40, 146, 41, 2, 42, 146, 43, 28, 44, 4, 45, 4, 37, 147, 46, 30, 47, 30, 48, 4, 49, 4, 50, 31, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="148" shared="false">
+				<node_path> "" </node_path>
+				<bool> True </bool>
+				<real> 1 </real>
+				<int> 1 </int>
+				<bool> False </bool>
+				<int> 2 </int>
+				<resource  resource_type="Script" path="res://gui/geoscape/geocape.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> 83.0774, -52.8299 </vector2>
+							<string> "snap_grid" </string>
+							<bool> True </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> True </bool>
+							<string> "snap_step" </string>
+							<vector2> 20, 20 </vector2>
+							<string> "zoom" </string>
+							<real> 0.902498 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://gui/geoscape/geocape.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<real> 1920 </real>
+				<real> 1080 </real>
+				<resource name=""></resource>				<color> 0, 0, 0, 1 </color>
+				<real> 200 </real>
+				<real> 1320 </real>
+				<real> 1060 </real>
+				<resource  resource_type="Font" path="res://theme/small.fnt">  </resource>
+				<real> 4 </real>
+				<real> 35 </real>
+				<resource  resource_type="Texture" path="res://gui/geoscape/xforce1-9.png">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<resource  resource_type="Texture" path="res://gui/geoscape/xforce1-12.png">  </resource>
+				<resource  resource_type="Texture" path="res://gui/geoscape/xforce1-3.png">  </resource>
+				<resource  resource_type="Texture" path="res://gui/geoscape/xforce1-84.jpg">  </resource>
+				<real> 420 </real>
+				<real> 160 </real>
+				<real> 916 </real>
+				<real> 186 </real>
+				<resource  resource_type="Font" path="res://theme/geoscape.fnt">  </resource>
+				<real> 0 </real>
+				<string> "X-Force: FFD v 0.917 Screenshots" </string>
+				<int> 0 </int>
+				<real> -1 </real>
+				<real> 1740 </real>
+				<real> 60 </real>
+				<real> 1040 </real>
+				<resource  resource_type="Theme" path="local://1">  </resource>
+				<real> 20 </real>
+				<real> 180 </real>
+				<real> 120 </real>
+				<int> 3 </int>
+				<string> "Bases" </string>
+				<string> "Fleet" </string>
+				<string> "Combat Units" </string>
+				<real> 140 </real>
+				<real> 264 </real>
+				<int> 4 </int>
+				<string> "Research" </string>
+				<string> "Production" </string>
+				<string> "Storage" </string>
+				<string> "Job market" </string>
+				<real> 280 </real>
+				<real> 404 </real>
+				<string> "Base information" </string>
+				<string> "Countries" </string>
+				<string> "Finanzes" </string>
+				<string> "UFOpedia" </string>
+				<real> 580 </real>
+				<string> "Missions" </string>
+				<string> "Custom" </string>
+				<string> "Build Base" </string>
+				<real> 820 </real>
+				<real> 977 </real>
+				<int> 5 </int>
+				<string> "Quick save" </string>
+				<string> "Save" </string>
+				<string> "Options" </string>
+				<string> "Exit" </string>
+				<string> "Load" </string>
+				<real> 440 </real>
+				<string> "Alert!" </string>
+				<real> 860 </real>
+				<real> 360 </real>
+				<resource  resource_type="Font" path="res://theme/schablone2.fnt">  </resource>
+				<resource  resource_type="Font" path="res://theme/default.fnt">  </resource>
+				<string> "[center]Hello and Welcome to my [u]first [b]X-Force 2[/b] Preview[/u]! :)[/center]&#000a;&#000a;[color=red][i]X-Force 2[/i] is a rewrite/remake of [i]X-Force: Fight For Destiny[/i] (FFD)[/color]&#000a;using the [url=http://godotengine.org/projects/godot-engine]Godot engine[/url].&#000a;&#000a;Everything here is scripted (no C/C++/C# is used) and runs smoothly on a 6 years old single core Atom CPU.&#000a;That&apos;s one reason why I use Godot.&#000a;&#000a;For the case you don&apos;t know X-Force: FFD visit [url]http://www.xforce-online.de/index.php[/url]&#000a;Or just take a look at the screenshots.&#000a;&#000a;The screenshots will be replaced by the World map.&#000a;For simplicity we won&apos;t use a 3D Globe and ignore the fact that 2D maps have heavy distortions.&#000a;X-Force isn&apos;t a simulation and gameset creators can easier replace the Earth by the Moon / Mars / Alien world.&#000a;&#000a;The source is available at [url=https://github.com/Andi-K/xForce2]GitHub[/url]." </string>
+				<real> 680 </real>
+				<real> 1097 </real>
+				<real> 46 </real>
+				<string> "Mo, 2043-02-01 16:57:89 UTC" </string>
+				<real> 1160 </real>
+				<real> 1505 </real>
+				<real> 62 </real>
+				<real> 2 </real>
+				<string> "Upcoming events&#000a;" </string>
+				<real> 660 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 210 </real>
+				<real> 21 </real>
+				<string> "2043-02-01 14:31" </string>
+				<real> 214 </real>
+				<real> 614 </real>
+				<vector2> 400, 20 </vector2>
+				<real> 0.952381 </real>
+				<string> "One &quot;Laser II&quot; was produced . " </string>
+				<real> 25 </real>
+				<real> 45 </real>
+				<resource  resource_type="Font" path="res://theme/small2.fnt">  </resource>
+				<string> "2043-02-01 16:56" </string>
+				<string> "The soldier &quot;Kenny&quot; is  recuperated  completely." </string>
+				<real> 50 </real>
+				<real> 67 </real>
+				<string> "2043-02-01 16:57" </string>
+				<real> 49 </real>
+				<real> 69 </real>
+				<real> 1.176471 </real>
+				<string> "&quot;UFO&quot; spotted" </string>
+				<real> 365 </real>
+				<real> 41 </real>
+				<string> "MSG" </string>
+				<real> 1660 </real>
+				<real> 220 </real>
+				<real> 26 </real>
+				<real> 22 </real>
+				<string> "Stop Time" </string>
+				<string> "" </string>
+				<real> 30 </real>
+				<real> 187 </real>
+				<real> 191 </real>
+				<real> 491 </real>
+				<vector2> 300, 20 </vector2>
+				<string> "Production:  One &quot;Laser II&quot;" </string>
+				<real> 48 </real>
+				<real> 27 </real>
+				<real> 47 </real>
+				<string> "Complete Research: &quot;Laser III&quot;" </string>
+				<real> 52 </real>
+				<real> 74 </real>
+				<real> 53 </real>
+				<real> 73 </real>
+				<string> "2043-02-02 08:19" </string>
+				<string> "&quot;Interceptor 04&quot;: arrival at &quot;Last Hope&quot;" </string>
+				<real> 1340 </real>
+				<real> 740 </real>
+				<real> 1685 </real>
+				<real> 761 </real>
+				<string> "INFO" </string>
+				<real> 780 </real>
+				<real> 1954 </real>
+				<real> 303 </real>
+				<string> "Info about selected Base/ UFO / City" </string>
+				<real> 1360 </real>
+				<real> 1705 </real>
+				<real> 262 </real>
+				<string> "( Minimap /&#000a;select Base to build )" </string>
+				<real> 1025 </real>
+				<real> 123 </real>
+				<real> 3 </real>
+				<string> "Credits: $&#000a;&#000a;(Game speed controll)" </string>
+			</array>
+			<string> "version" </string>
+			<int> 1 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

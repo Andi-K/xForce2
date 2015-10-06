@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="CanvasItemMaterial" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<resource type="CanvasItemShader" path="local://1">
+		<dictionary name="_code" shared="false">
+			<string> "fragment" </string>
+			<string> "//there is no albedo (all shading is normal)&#000a;uniform color col;&#000a;COLOR=col;&#000a;//sample normal texture&#000a;vec4 ntex = tex(TEXTURE,UV);&#000a;//take the alpha from the normal texture&#000a;COLOR.a=ntex.a;&#000a;//adjust normalmap from [0..1] to [-1..1]&#000a;ntex.rgb = ntex.rgb * vec3(-2,-2,1) - vec3(-1,-1,0);&#000a;//half size of the tile &#000a;vec2 tile_vec=vec2(47,22);&#000a;//rotation to convert the normal to pseudo 3d coordinates&#000a;//this could be optimized&#000a;float r = asin(tile_vec.y / tile_vec.x);&#000a;mat3 rot_mat = mat3( vec3(1,0,0), vec3(0,cos(r),-sin(r)), vec3(0,sin(r),cos(r)));&#000a;&#000a;//pass the normal&#000a;NORMAL =  rot_mat * ntex.rgb;&#000a;&#000a;&#000a;&#000a;&#000a;" </string>
+			<string> "fragment_ofs" </string>
+			<int> 0 </int>
+			<string> "light" </string>
+			<string> "//apply the normal as simple diffuse (same as default code)&#000a;vec3 light_normal = normalize(vec3(LIGHT_VEC,-LIGHT_HEIGHT));&#000a;LIGHT=LIGHT_COLOR*COLOR*max(dot(-light_normal,NORMAL),0.0);&#000a;//substract light position to be always aligned to the bottom of the sprite&#000a;//this makes lighting on it look like a billboard&#000a;LIGHT_VEC.y-=VAR1.y;&#000a;" </string>
+			<string> "light_ofs" </string>
+			<int> 0 </int>
+			<string> "vertex" </string>
+			<string> "// pass the local sprite coordinates through a varying&#000a;// the red cross in the sprite is the 0,0&#000a;VAR1.xy=SRC_VERTEX;" </string>
+			<string> "vertex_ofs" </string>
+			<int> 0 </int>
+		</dictionary>
+
+	</resource>
+	<main_resource>
+		<resource name="shader/shader" resource_type="Shader" path="local://1">  </resource>
+		<int name="shader/shading_mode"> 0 </int>
+		<color name="shader_param/col"> 1, 0.836638, 0.693806, 1 </color>
+
+	</main_resource>
+</resource_file>

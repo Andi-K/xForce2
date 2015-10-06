@@ -1,0 +1,77 @@
+<header>X-Force: Fight For Destiny
+<text>ist ein Freeware Spiel vom
+<caption>X-Force Entwicklerteam
+<caption>Projektführung
+<name>früher Christian Reich alias Jim_Raynor
+<name>Dirk Feldermann alias DirkF
+<caption>Idee & Konzept
+<name>Christian Reich
+<name>Nathanael Jöhrmann alias Natter
+<name>Dirk Feldermann
+<name>Frank Kolb alias MemTronic
+<caption>Programmiert von
+<name>Christian Reich
+<name>Shocquer
+<name>Nathanael Jöhrmann
+<name>Dirk Feldermann
+<caption>Story
+<name>Dirk Feldermann
+<caption>Grafik
+<name>Ronny Falkenhan
+<name>John Smith alias JohnS
+<name>Frank Kolb
+<name>Stefan Probst alias Marauder
+<name>NASA (für die Textur des Globus)
+<caption>offizieller Spielsatz GalWar
+<name>Dirk Feldermann
+<caption>Tutorial
+<name>Nathanael Jöhrmann
+<caption>Spielsatz default (veraltet)
+<name>Daniel
+<name>überarbeitet von Nathanael Jöhrmann
+<caption>Musik
+<name>Tilo Renner alias useless_mind
+<caption>Übersetzung Homepage
+<name>Katja Sandner
+<name>Lee Benjamin
+<caption>Übersetzungen
+<name>english
+<text>Ken Persson
+<text>Ronny Falkenhan
+<text>Katja Sandner
+<name>Spanisch
+<text>Jaime Padilla Ruiz alias Odin_spain
+<name>Russisch
+<text>Anton Smirnov
+<caption>Bugjäger
+<name>Mathias Lind alias Holy
+<name>Erwin
+<name>Konstantin
+<name>Odin
+<name>Nightelf_X
+<caption>Spezieller Dank geht an
+<name>Katja Sandner
+<text>die dafür sorgt, dass Christian Reich nicht als Knochengerippe vom Programmiererstuhl fällt
+<name>
+<name>Ronny Falkenhan
+<text>ohne den Christian Reich wahrscheinlich schon aus Grafikmangel aufgegeben hätte
+<name>
+<name>Daniel Schmidt
+<text>der mit seinen Ideen und Vorschlägen X-Force voran gebracht hat
+<name>
+<name>Jordan Russel (www.jrsoftware.org)
+<text>für das hervorragende Installationsprogramm Inno Setup
+<name>
+<name>Hiroyuki Hori
+<text>für den DirectX-Wrapper DelphiX
+<name>
+<name>Projekt Xenocide (www.projectxenocide.com)
+<text>für die großartige und umfangreiche Namesdatenbank
+<name>
+<name>Carlo Kok (www.remobjects.com)
+<text>für das hervorragende Pascal Script, dass als Basis für
+<text>die Skriptsprache X-Skript dient.
+<name>
+<name>und natürlich jeden, auch die die ich hier nicht genannt habe,
+<name>die an X-Force mitgewirkt haben
+<end>

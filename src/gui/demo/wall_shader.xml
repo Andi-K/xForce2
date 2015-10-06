@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="CanvasItemMaterial" subresource_count="4" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://gui/demo/faceMask.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/faceNormal.png" type="Texture"></ext_resource>
+	<resource type="CanvasItemShader" path="local://1">
+		<dictionary name="_code" shared="false">
+			<string> "fragment" </string>
+			<string> "uniform texture normal;&#000a;&#000a;vec2 ywnormal=tex( normal,UV).wy * vec2(2.0,2.0) - vec2(1.0,1.0);&#000a;NORMAL=vec3(ywnormal,sqrt(1 - (ywnormal.x * ywnormal.x) - (ywnormal.y * ywnormal.y) ));&#000a;" </string>
+			<string> "fragment_ofs" </string>
+			<int> 0 </int>
+			<string> "light" </string>
+			<string> "// this is the half size of the tile in pixels&#000a;&#000a;vec2 tile_vec=vec2(47,22);&#000a;&#000a;// this mask is used to see which part of the tile is the background (^)&#000a;// or the foregronud (v)&#000a;&#000a;uniform texture bg_mask;&#000a;&#000a;bool behind = tex(bg_mask,UV).a&lt;0.5;&#000a;float y_ofs;&#000a;&#000a;if (behind) {&#000a;&#0009;// ^ part&#000a;&#0009;&#000a;&#0009;y_ofs = tile_vec.y*2 - abs(VAR1.x * tile_vec.y / tile_vec.x);&#000a;} else {&#000a;&#0009;// v part&#000a;&#0009;&#000a;&#0009;y_ofs = abs(VAR1.x * tile_vec.y / tile_vec.x);&#000a;}&#000a;&#000a;vec2 point_2d = vec2(VAR1.x,(tile_vec.y - VAR1.y));&#000a;&#000a;// compute a pseudo 3D point for both the light and the texel&#000a;// this makes the normalmap calculation work properly&#000a;&#000a;vec3 point_3d = vec3( point_2d.x, point_2d.y - y_ofs, y_ofs );&#000a;vec3 light_3d = vec3(point_2d.x-LIGHT_VEC.x,LIGHT_HEIGHT,(-(VAR1.y - (LIGHT_VEC.y))+tile_vec.y));&#000a;&#000a;//this could be optimized&#000a;//a rotation matrix is created to convert the normalmap vector&#000a;//to the same coordinate space as our pseudo 3d point and light&#000a;&#000a;float r = asin(tile_vec.y / tile_vec.x);&#000a;mat3 rot_mat = mat3( vec3(1,0,0), vec3(0,cos(r),-sin(r)), vec3(0,sin(r),cos(r)));&#000a;vec3 n =  rot_mat * NORMAL;&#000a;n.y=-n.y;&#000a;&#000a;//finally compute the dot product. Simple diffuse is computed here,&#000a;//but specular could be added and it will look prettier&#000a;&#000a;float dp = max(dot(normalize(n),-normalize(light_3d-point_3d)),0);&#000a;LIGHT=vec4(vec3(dp),1.0)*COLOR*LIGHT_COLOR*3.0;&#000a;&#000a;//finally, after light was cmoputed, make the light &quot;flat&quot;&#000a;//this makes the shadows work properly&#000a;//the +2 is added to avoid z-fighting between caster and pseudo 3d coords.&#000a;&#000a;LIGHT_VEC.y+=point_3d.y+2;&#000a;&#000a;" </string>
+			<string> "light_ofs" </string>
+			<int> 0 </int>
+			<string> "vertex" </string>
+			<string> "//assign the local vertex coordinates to a varying&#000a;//the center coordinates (0,0) matches the sprite center &#000a;// (shows as a cross when the sprite is selected)&#000a;&#000a;VAR1.xy=SRC_VERTEX;&#000a;" </string>
+			<string> "vertex_ofs" </string>
+			<int> 0 </int>
+		</dictionary>
+
+	</resource>
+	<main_resource>
+		<resource name="shader/shader" resource_type="Shader" path="local://1">  </resource>
+		<int name="shader/shading_mode"> 0 </int>
+		<resource name="shader_param/normal" resource_type="Texture" path="res://gui/demo/faceNormal.png">  </resource>
+		<resource name="shader_param/bg_mask" resource_type="Texture" path="res://gui/demo/faceMask.png">  </resource>
+
+	</main_resource>
+</resource_file>

@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="12" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://scenes/intro/moon_and_earth_lroearthrise_frame.jpg" type="Texture"></ext_resource>
+	<ext_resource path="res://scenes/intro/new_styleboxflat_hover.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://scenes/intro/new_styleboxflat.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://scenes/intro/load_game.gd" type="Script"></ext_resource>
+	<ext_resource path="res://scenes/intro/spacecraft-568625_640_.png" type="Texture"></ext_resource>
+	<ext_resource path="res://scenes/intro/smoke_particle.png" type="Texture"></ext_resource>
+	<ext_resource path="res://scenes/intro/shadow.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/shadow_blob.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/shoot.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://scenes/intro/logo.xscn" type="PackedScene"></ext_resource>
+	<resource type="Animation" path="local://1">
+		<real name="length"> 6 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "../Control/TextureFrame:rect/pos" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="4"> 				0, 1, 2.8, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="4"> 				1, 1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="4" shared="false">
+				<vector2> -880, -460 </vector2>
+				<vector2> -280, -20 </vector2>
+				<vector2> -274, -635 </vector2>
+				<vector2> 0, 0 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/1/type"> "value" </string>
+		<node_path name="tracks/1/path"> "../Control/TextureFrame:rect/size" </node_path>
+		<int name="tracks/1/interp"> 1 </int>
+		<dictionary name="tracks/1/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 4280, 2600 </vector2>
+				<vector2> 3840, 2160 </vector2>
+				<vector2> 1920, 1080 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/2/type"> "value" </string>
+		<node_path name="tracks/2/path"> "../Control/TextureFrame 2:rect/pos" </node_path>
+		<int name="tracks/2/interp"> 1 </int>
+		<dictionary name="tracks/2/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1.34647, 2.3 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 1120, 240 </vector2>
+				<vector2> 620, 300 </vector2>
+				<vector2> 400, 280 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/3/type"> "value" </string>
+		<node_path name="tracks/3/path"> "../Control/TextureFrame 2:rect/size" </node_path>
+		<int name="tracks/3/interp"> 1 </int>
+		<dictionary name="tracks/3/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1.8 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<vector2> 40, 30 </vector2>
+				<vector2> 320, 280 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/4/type"> "value" </string>
+		<node_path name="tracks/4/path"> "../Control/Particles2D 2:config/emitting" </node_path>
+		<int name="tracks/4/interp"> 1 </int>
+		<dictionary name="tracks/4/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="1"> 				1.5 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="1"> 				1 </real_array>
+			<string> "values" </string>
+			<array  len="1" shared="false">
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/5/type"> "value" </string>
+		<node_path name="tracks/5/path"> "../Control/TextureFrame 2:visibility/opacity" </node_path>
+		<int name="tracks/5/interp"> 0 </int>
+		<dictionary name="tracks/5/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1.7, 1.8 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 0.5, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<real> 1 </real>
+				<real> 1 </real>
+				<real> 0 </real>
+			</array>
+		</dictionary>
+		<string name="tracks/6/type"> "value" </string>
+		<node_path name="tracks/6/path"> "../Control/Particles2D:config/emitting" </node_path>
+		<int name="tracks/6/interp"> 1 </int>
+		<dictionary name="tracks/6/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1.7, 2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+				<bool> False </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/7/type"> "value" </string>
+		<node_path name="tracks/7/path"> "../Control/TextureFrame 3:rect/pos" </node_path>
+		<int name="tracks/7/interp"> 1 </int>
+		<dictionary name="tracks/7/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				1.69813, 2.86295, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> -580, 1060 </vector2>
+				<vector2> -520, 540 </vector2>
+				<vector2> 0, 700 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/8/type"> "value" </string>
+		<node_path name="tracks/8/path"> "../Control/TextureFrame 3:rect/size" </node_path>
+		<int name="tracks/8/interp"> 1 </int>
+		<dictionary name="tracks/8/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				1.69813, 2.86295, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 900, 720 </vector2>
+				<vector2> 1000, 640 </vector2>
+				<vector2> 1001, 379 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/9/type"> "value" </string>
+		<node_path name="tracks/9/path"> "../Control/Particles2D:visibility/visible" </node_path>
+		<int name="tracks/9/interp"> 1 </int>
+		<dictionary name="tracks/9/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1.8, 2.2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+				<bool> False </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/10/type"> "value" </string>
+		<node_path name="tracks/10/path"> "../Control/Particles2D 2:visibility/visible" </node_path>
+		<int name="tracks/10/interp"> 1 </int>
+		<dictionary name="tracks/10/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1.8, 3 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+				<bool> False </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/11/type"> "value" </string>
+		<node_path name="tracks/11/path"> "../Sprite:transform/pos" </node_path>
+		<int name="tracks/11/interp"> 1 </int>
+		<dictionary name="tracks/11/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.7, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 340, 590 </vector2>
+				<vector2> 900, 430 </vector2>
+				<vector2> 1320, 730 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/12/type"> "value" </string>
+		<node_path name="tracks/12/path"> "../Sprite1:transform/pos" </node_path>
+		<int name="tracks/12/interp"> 1 </int>
+		<dictionary name="tracks/12/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.8, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 340, 590 </vector2>
+				<vector2> 1040, 490 </vector2>
+				<vector2> 1270, 790 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/13/type"> "value" </string>
+		<node_path name="tracks/13/path"> "../Sprite2:transform/pos" </node_path>
+		<int name="tracks/13/interp"> 1 </int>
+		<dictionary name="tracks/13/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.7, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 340, 590 </vector2>
+				<vector2> 1160, 590 </vector2>
+				<vector2> 1410, 790 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/14/type"> "value" </string>
+		<node_path name="tracks/14/path"> "../Sprite3:transform/pos" </node_path>
+		<int name="tracks/14/interp"> 1 </int>
+		<dictionary name="tracks/14/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.8, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 380, 690 </vector2>
+				<vector2> 1200, 690 </vector2>
+				<vector2> 1210, 870 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/15/type"> "value" </string>
+		<node_path name="tracks/15/path"> "../Sprite4:transform/pos" </node_path>
+		<int name="tracks/15/interp"> 1 </int>
+		<dictionary name="tracks/15/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.7, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 420, 890 </vector2>
+				<vector2> 1240, 870 </vector2>
+				<vector2> 1170, 950 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/16/type"> "value" </string>
+		<node_path name="tracks/16/path"> "../Sprite5:transform/pos" </node_path>
+		<int name="tracks/16/interp"> 1 </int>
+		<dictionary name="tracks/16/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.8, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 420, 1050 </vector2>
+				<vector2> 1180, 1050 </vector2>
+				<vector2> 1490, 850 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/17/type"> "value" </string>
+		<node_path name="tracks/17/path"> "../Sprite6:transform/pos" </node_path>
+		<int name="tracks/17/interp"> 1 </int>
+		<dictionary name="tracks/17/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				2.7, 4.39397, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 360, 1210 </vector2>
+				<vector2> 1120, 1270 </vector2>
+				<vector2> 1570, 930 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/18/type"> "value" </string>
+		<node_path name="tracks/18/path"> "../Sprite7:transform/pos" </node_path>
+		<int name="tracks/18/interp"> 1 </int>
+		<dictionary name="tracks/18/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				2.64502, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<vector2> -220, 780 </vector2>
+				<vector2> 160, 840 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/19/type"> "value" </string>
+		<node_path name="tracks/19/path"> "../Sprite7:transform/scale" </node_path>
+		<int name="tracks/19/interp"> 1 </int>
+		<dictionary name="tracks/19/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="1"> 				2.64502 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="1"> 				1 </real_array>
+			<string> "values" </string>
+			<array  len="1" shared="false">
+				<vector2> 45.625, 70 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/20/type"> "value" </string>
+		<node_path name="tracks/20/path"> "../Sprite:visibility/visible" </node_path>
+		<int name="tracks/20/interp"> 1 </int>
+		<dictionary name="tracks/20/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.7 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/21/type"> "value" </string>
+		<node_path name="tracks/21/path"> "../Sprite1:visibility/visible" </node_path>
+		<int name="tracks/21/interp"> 1 </int>
+		<dictionary name="tracks/21/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.8 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/22/type"> "value" </string>
+		<node_path name="tracks/22/path"> "../Sprite2:visibility/visible" </node_path>
+		<int name="tracks/22/interp"> 1 </int>
+		<dictionary name="tracks/22/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.7 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/23/type"> "value" </string>
+		<node_path name="tracks/23/path"> "../Sprite3:visibility/visible" </node_path>
+		<int name="tracks/23/interp"> 1 </int>
+		<dictionary name="tracks/23/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.78896 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/24/type"> "value" </string>
+		<node_path name="tracks/24/path"> "../Sprite4:visibility/visible" </node_path>
+		<int name="tracks/24/interp"> 1 </int>
+		<dictionary name="tracks/24/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.7 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/25/type"> "value" </string>
+		<node_path name="tracks/25/path"> "../Sprite5:visibility/visible" </node_path>
+		<int name="tracks/25/interp"> 1 </int>
+		<dictionary name="tracks/25/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.78896 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/26/type"> "value" </string>
+		<node_path name="tracks/26/path"> "../Sprite6:visibility/visible" </node_path>
+		<int name="tracks/26/interp"> 1 </int>
+		<dictionary name="tracks/26/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.7 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/27/type"> "value" </string>
+		<node_path name="tracks/27/path"> "../shoot:transform/pos" </node_path>
+		<int name="tracks/27/interp"> 1 </int>
+		<dictionary name="tracks/27/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="6"> 				-0.1, 0, 1.6, 1.79928, 1.8, 1.9 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="6"> 				1, 1, 1, 1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="6" shared="false">
+				<vector2> 536, 526 </vector2>
+				<vector2> -684, 746 </vector2>
+				<vector2> -144, 666 </vector2>
+				<vector2> 576, 546 </vector2>
+				<vector2> 536, 526 </vector2>
+				<vector2> -644, -154 </vector2>
+			</array>
+		</dictionary>
+		<string name="tracks/28/type"> "value" </string>
+		<node_path name="tracks/28/path"> "../shoot:visibility/visible" </node_path>
+		<int name="tracks/28/interp"> 1 </int>
+		<dictionary name="tracks/28/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1.8 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> True </bool>
+				<bool> False </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/29/type"> "value" </string>
+		<node_path name="tracks/29/path"> "../Control/TextureFrame/Button:visibility/opacity" </node_path>
+		<int name="tracks/29/interp"> 1 </int>
+		<dictionary name="tracks/29/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				5.3, 6 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<real> 0 </real>
+				<real> 1 </real>
+			</array>
+		</dictionary>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "names" </string>
+			<string_array  len="140">
+				<string> "Intro" </string>
+				<string> "Node" </string>
+				<string> "_import_path" </string>
+				<string> "__meta__" </string>
+				<string> "Control" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/light_mask" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus_neighbour/left" </string>
+				<string> "focus_neighbour/top" </string>
+				<string> "focus_neighbour/right" </string>
+				<string> "focus_neighbour/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "size_flags/stretch_ratio" </string>
+				<string> "TextureFrame" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "texture" </string>
+				<string> "modulate" </string>
+				<string> "expand" </string>
+				<string> "Button" </string>
+				<string> "anchor/left" </string>
+				<string> "anchor/top" </string>
+				<string> "anchor/right" </string>
+				<string> "anchor/bottom" </string>
+				<string> "custom_styles/hover" </string>
+				<string> "custom_styles/normal" </string>
+				<string> "disabled" </string>
+				<string> "toggle_mode" </string>
+				<string> "is_pressed" </string>
+				<string> "click_on_press" </string>
+				<string> "text" </string>
+				<string> "icon" </string>
+				<string> "flat" </string>
+				<string> "clip_text" </string>
+				<string> "align" </string>
+				<string> "script/script" </string>
+				<string> "TextureFrame 2" </string>
+				<string> "Particles2D" </string>
+				<string> "process/pause_mode" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "config/amount" </string>
+				<string> "config/lifetime" </string>
+				<string> "config/time_scale" </string>
+				<string> "config/preprocess" </string>
+				<string> "config/emit_timeout" </string>
+				<string> "config/emitting" </string>
+				<string> "config/offset" </string>
+				<string> "config/half_extents" </string>
+				<string> "config/local_space" </string>
+				<string> "config/explosiveness" </string>
+				<string> "config/flip_h" </string>
+				<string> "config/flip_v" </string>
+				<string> "config/texture" </string>
+				<string> "config/h_frames" </string>
+				<string> "config/v_frames" </string>
+				<string> "params/direction" </string>
+				<string> "params/spread" </string>
+				<string> "params/linear_velocity" </string>
+				<string> "params/spin_velocity" </string>
+				<string> "params/orbit_velocity" </string>
+				<string> "params/gravity_direction" </string>
+				<string> "params/gravity_strength" </string>
+				<string> "params/radial_accel" </string>
+				<string> "params/tangential_accel" </string>
+				<string> "params/damping" </string>
+				<string> "params/initial_angle" </string>
+				<string> "params/initial_size" </string>
+				<string> "params/final_size" </string>
+				<string> "params/hue_variation" </string>
+				<string> "params/anim_speed_scale" </string>
+				<string> "params/anim_initial_pos" </string>
+				<string> "randomness/direction" </string>
+				<string> "randomness/spread" </string>
+				<string> "randomness/linear_velocity" </string>
+				<string> "randomness/spin_velocity" </string>
+				<string> "randomness/orbit_velocity" </string>
+				<string> "randomness/gravity_direction" </string>
+				<string> "randomness/gravity_strength" </string>
+				<string> "randomness/radial_accel" </string>
+				<string> "randomness/tangential_accel" </string>
+				<string> "randomness/damping" </string>
+				<string> "randomness/initial_angle" </string>
+				<string> "randomness/initial_size" </string>
+				<string> "randomness/final_size" </string>
+				<string> "randomness/hue_variation" </string>
+				<string> "randomness/anim_speed_scale" </string>
+				<string> "randomness/anim_initial_pos" </string>
+				<string> "color_phases/count" </string>
+				<string> "phase_0/pos" </string>
+				<string> "phase_0/color" </string>
+				<string> "phase_1/pos" </string>
+				<string> "phase_1/color" </string>
+				<string> "phase_2/pos" </string>
+				<string> "phase_2/color" </string>
+				<string> "phase_3/pos" </string>
+				<string> "phase_3/color" </string>
+				<string> "emission_points" </string>
+				<string> "TextureFrame 3" </string>
+				<string> "Particles2D 2" </string>
+				<string> "Sprite" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "Sprite1" </string>
+				<string> "Sprite2" </string>
+				<string> "Sprite3" </string>
+				<string> "Sprite4" </string>
+				<string> "Sprite5" </string>
+				<string> "Sprite6" </string>
+				<string> "Sprite7" </string>
+				<string> "shoot" </string>
+				<string> "KinematicBody2D" </string>
+				<string> "CenterContainer" </string>
+				<string> "AnimationPlayer" </string>
+				<string> "playback/process_mode" </string>
+				<string> "playback/default_blend_time" </string>
+				<string> "root/root" </string>
+				<string> "anims/New Anim" </string>
+				<string> "playback/active" </string>
+				<string> "playback/speed" </string>
+				<string> "blend_times" </string>
+				<string> "autoplay" </string>
+				<string> "XForce Logo" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 20 </int>
+			<string> "nodes" </string>
+			<int_array  len="1060"> 				-1, -1, 1, 0, -1, 2, 2, 0, 3, 1, 0, 0, 0, 4, 4, -1, 16, 2, 0, 5, 2, 6, 3, 7, 3, 8, 4, 9, 5, 10, 5, 11, 0, 12, 0, 13, 0, 14, 0, 15, 6, 16, 2, 17, 7, 18, 7, 19, 3, 0, 1, 0, 20, 20, -1, 21, 2, 0, 5, 2, 6, 3, 7, 3, 8, 4, 21, 8, 22, 9, 9, 10, 10, 11, 11, 0, 12, 0, 13, 0, 14, 0, 15, 2, 16, 2, 17, 12, 18, 12, 19, 3, 23, 13, 24, 14, 25, 2, 0, 2, 0, 26, 26, -1, 34, 2, 0, 5, 2, 6, 15, 7, 3, 8, 4, 27, 4, 28, 7, 29, 4, 30, 4, 21, 16, 22, 17, 9, 18, 10, 19, 11, 0, 12, 0, 13, 0, 14, 0, 15, 6, 16, 2, 17, 7, 18, 7, 19, 3, 31, 20, 32, 21, 33, 6, 34, 6, 35, 6, 36, 6, 37, 22, 38, 23, 39, 6, 40, 6, 41, 4, 42, 24, 0, 1, 0, 20, 43, -1, 21, 2, 0, 5, 2, 6, 3, 7, 3, 8, 4, 21, 25, 22, 26, 9, 27, 10, 28, 11, 0, 12, 0, 13, 0, 14, 0, 15, 2, 16, 2, 17, 7, 18, 7, 19, 3, 23, 29, 24, 14, 25, 2, 0, 1, 0, 44, 44, -1, 68, 2, 0, 45, 4, 5, 6, 6, 3, 7, 3, 8, 4, 46, 30, 47, 15, 48, 31, 49, 32, 50, 2, 51, 33, 52, 34, 53, 34, 54, 3, 55, 15, 56, 6, 57, 35, 58, 36, 59, 6, 60, 37, 61, 6, 62, 6, 63, 38, 64, 4, 65, 4, 66, 39, 67, 40, 68, 41, 69, 42, 70, 43, 71, 40, 72, 44, 73, 42, 74, 42, 75, 45, 76, 3, 77, 46, 78, 47, 79, 15, 80, 3, 81, 15, 82, 15, 83, 15, 84, 15, 85, 3, 86, 15, 87, 15, 88, 15, 89, 15, 90, 15, 91, 15, 92, 15, 93, 48, 94, 37, 95, 15, 96, 15, 97, 15, 98, 49, 99, 15, 100, 50, 101, 47, 102, 51, 103, 52, 104, 53, 105, 3, 106, 54, 107, 55, 0, 1, 0, 20, 108, -1, 21, 2, 0, 5, 2, 6, 3, 7, 3, 8, 4, 21, 56, 22, 57, 9, 58, 10, 59, 11, 0, 12, 0, 13, 0, 14, 0, 15, 2, 16, 2, 17, 7, 18, 7, 19, 3, 23, 60, 24, 61, 25, 2, 0, 1, 0, 44, 109, -1, 68, 2, 0, 45, 4, 5, 6, 6, 3, 7, 3, 8, 4, 46, 62, 47, 15, 48, 63, 49, 32, 50, 2, 51, 33, 52, 34, 53, 52, 54, 64, 55, 15, 56, 2, 57, 35, 58, 36, 59, 2, 60, 37, 61, 6, 62, 6, 63, 38, 64, 4, 65, 4, 66, 39, 67, 44, 68, 65, 69, 66, 70, 67, 71, 40, 72, 44, 73, 68, 74, 68, 75, 69, 76, 3, 77, 70, 78, 3, 79, 71, 80, 72, 81, 71, 82, 15, 83, 15, 84, 15, 85, 3, 86, 15, 87, 15, 88, 15, 89, 15, 90, 15, 91, 15, 92, 15, 93, 48, 94, 37, 95, 15, 96, 15, 97, 15, 98, 49, 99, 15, 100, 50, 101, 47, 102, 51, 103, 52, 104, 53, 105, 3, 106, 54, 107, 55, 0, 0, 0, 110, 110, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 73, 47, 15, 48, 74, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 120, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 73, 47, 15, 48, 78, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 121, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 73, 47, 15, 48, 79, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 122, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 80, 47, 15, 48, 78, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 123, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 81, 47, 15, 48, 82, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 124, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 83, 47, 15, 48, 84, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 125, -1, 21, 2, 0, 5, 6, 6, 3, 7, 3, 8, 4, 46, 85, 47, 15, 48, 78, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 76, 118, 6, 119, 77, 0, 0, 0, 110, 126, -1, 21, 2, 0, 5, 2, 6, 3, 7, 3, 8, 4, 46, 86, 47, 15, 48, 87, 49, 32, 50, 2, 23, 75, 111, 2, 112, 35, 113, 6, 114, 6, 115, 4, 116, 4, 117, 32, 24, 14, 118, 6, 119, 77, 0, 0, 0, 128, 127, 88, 4, 2, 0, 46, 89, 48, 90, 3, 91, 0, 0, 0, 4, 129, -1, 23, 2, 0, 5, 2, 6, 3, 7, 3, 8, 4, 27, 7, 28, 7, 29, 7, 30, 7, 21, 92, 22, 93, 9, 94, 10, 95, 11, 0, 12, 0, 13, 0, 14, 0, 15, 6, 16, 2, 17, 7, 18, 7, 19, 3, 3, 96, 0, 17, 0, 130, 130, -1, 9, 2, 0, 131, 4, 132, 15, 133, 97, 134, 98, 135, 2, 136, 99, 137, 100, 138, 101, 0, 0, 0, 20, 139, 102, 5, 2, 0, 22, 103, 9, 104, 10, 65, 3, 105, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="106" shared="false">
+				<node_path> "" </node_path>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -564.592, -47.888 </vector2>
+							<string> "snap_grid" </string>
+							<bool> True </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> True </bool>
+							<string> "snap_step" </string>
+							<vector2> 20, 20 </vector2>
+							<string> "zoom" </string>
+							<real> 1.000004 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="2" shared="false">
+								<string> "res://scenes/intro/load_game.gd" </string>
+								<string> "res://scenes/intro/logo.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<bool> True </bool>
+				<real> 1 </real>
+				<int> 1 </int>
+				<real> 40 </real>
+				<bool> False </bool>
+				<int> 2 </int>
+				<real> -880 </real>
+				<real> -460 </real>
+				<real> 3400 </real>
+				<real> 2140 </real>
+				<int> 3 </int>
+				<resource  resource_type="Texture" path="res://scenes/intro/moon_and_earth_lroearthrise_frame.jpg">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<real> 0 </real>
+				<real> 1020 </real>
+				<real> 0.444444 </real>
+				<real> 840 </real>
+				<real> 541 </real>
+				<resource  resource_type="StyleBox" path="res://scenes/intro/new_styleboxflat_hover.xsbx">  </resource>
+				<resource  resource_type="StyleBox" path="res://scenes/intro/new_styleboxflat.xsbx">  </resource>
+				<string> "Start Game" </string>
+				<resource name=""></resource>				<resource  resource_type="Script" path="res://scenes/intro/load_game.gd">  </resource>
+				<real> 1120 </real>
+				<real> 240 </real>
+				<real> 1160 </real>
+				<real> 270 </real>
+				<resource  resource_type="Texture" path="res://scenes/intro/spacecraft-568625_640_.png">  </resource>
+				<vector2> 586, 426 </vector2>
+				<vector2> 8.3125, 5.1875 </vector2>
+				<int> 0 </int>
+				<int> 36 </int>
+				<real> 2 </real>
+				<vector2> 0, 0 </vector2>
+				<vector2> 15, 15 </vector2>
+				<real> 0.04 </real>
+				<resource  resource_type="Texture" path="res://scenes/intro/smoke_particle.png">  </resource>
+				<real> 60 </real>
+				<real> 180 </real>
+				<real> 240.484863 </real>
+				<real> 5 </real>
+				<real> 0.09 </real>
+				<real> 90 </real>
+				<real> 100.000008 </real>
+				<real> 0.7 </real>
+				<real> 0.2 </real>
+				<real> 0.03 </real>
+				<int> 4 </int>
+				<color> 1, 1, 0.91403, 0.649351 </color>
+				<color> 0.883249, 0.586308, 0.0661006, 0.851038 </color>
+				<real> 0.6 </real>
+				<color> 1, 0, 0, 0.320679 </color>
+				<color> 0, 0, 0, 0 </color>
+				<vector2_array  len="0"> 					 </vector2_array>
+				<real> -580 </real>
+				<real> 1060 </real>
+				<real> 320 </real>
+				<real> 1780 </real>
+				<resource  resource_type="Texture" path="res://scenes/intro/shadow.png">  </resource>
+				<color> 1, 1, 1, 0.443168 </color>
+				<vector2> 566.767, 418.072 </vector2>
+				<vector2> 4.58647, 4.93976 </vector2>
+				<real> 0.8 </real>
+				<real> 200 </real>
+				<real> 4 </real>
+				<real> 0.1 </real>
+				<real> 25 </real>
+				<real> 50.000004 </real>
+				<real> 0.11 </real>
+				<real> 0.01 </real>
+				<real> 0.3 </real>
+				<vector2> 340, 590 </vector2>
+				<vector2> 0.937501, 1.25 </vector2>
+				<resource  resource_type="Texture" path="res://gui/demo/shadow_blob.png">  </resource>
+				<color> 1, 1, 1, 0.706405 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<vector2> 0.937501, 1.875 </vector2>
+				<vector2> 0.937503, 1.875 </vector2>
+				<vector2> 380, 690 </vector2>
+				<vector2> 420, 890 </vector2>
+				<vector2> 0.937498, 1.875 </vector2>
+				<vector2> 420, 1050 </vector2>
+				<vector2> 0.9375, 1.875 </vector2>
+				<vector2> 360, 1210 </vector2>
+				<vector2> -220, 780 </vector2>
+				<vector2> 45.625, 70 </vector2>
+				<resource  resource_type="PackedScene" path="res://gui/demo/shoot.xscn">  </resource>
+				<vector2> -684, 746 </vector2>
+				<vector2> 3.625, 2.0625 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -193.108, -123.228 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 2.78951 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://gui/demo/shoot.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+					<string> "__editor_show_subtree" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.008594 </real>
+				<real> 0.523611 </real>
+				<real> 0.992188 </real>
+				<real> 0.988889 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<node_path> ".." </node_path>
+				<resource  resource_type="Animation" path="local://1">  </resource>
+				<real> 0.5 </real>
+				<array  len="0" shared="false">
+				</array>
+				<string> "New Anim" </string>
+				<resource  resource_type="PackedScene" path="res://scenes/intro/logo.xscn">  </resource>
+				<real> 120 </real>
+				<real> 300 </real>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -475.663, -1080 </vector2>
+							<string> "snap_grid" </string>
+							<bool> True </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> True </bool>
+							<string> "snap_step" </string>
+							<vector2> 20, 20 </vector2>
+							<string> "zoom" </string>
+							<real> 0.598739 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://scenes/intro/logo.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+			</array>
+			<string> "version" </string>
+			<int> 1 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

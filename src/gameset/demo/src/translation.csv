@@ -1,0 +1,13 @@
+# ID, note, en, de
+BASE__2_NAME, ,"Base","Basis"
+BASE__2_DESC, ,"In a base you can build all available Buildings. It can have up to [i]7 subterran layers[/i] and a surface layer.\nIf you build a new base it will always consist of the surface layer and 1 subsurface layer.\n[b]Protect your bases at all costs, for you will loose the game if your last base is destroyed![/b]\nFor each level you dig down, the structures build there will take less damage from attacking UFOs.\nBuildings on the surface (including the elevator) take full damage and for each layer the damage is reduced by 50%. ", "Nomale X-Force Basis..."
+BASE__4_NAME, ,"Alphatron Mine","Alphatron Mine"
+BASE__4_DESC, ,"in the Alphatron mine you will - of course - produce Alphatron. there are 2 factors influencing efficiency:\n
+\n
+[indent]The ammount of the Alphatron in the region (see Tutorial: Alphatron)[/indent]\n
+[indent]The amount of workers in the mine[/indent]\n
+\n
+When building a mine, the production building is allready in place. Without workers it will only produce at [b]~10% efficiency[/b].\nYou can create quarters, recruit workers and send them to work in the mine to increase output. In a mine you may only build storages and defence buildings. ",Die Mine halt...
+BASE__5_NAME, ,Outpost,Aussenposten
+BASE__5_DESC, ,"The outpost is a small and cheap version of the base, that is primary used for radarposts.\nOutposts don't have subsurface layers, and therefor are [b]limited to buildings that can be build on the surface[/b] (you cannot build hangars). ",Aussenposten...
+TYPE_BASE,,"Base","Basen"

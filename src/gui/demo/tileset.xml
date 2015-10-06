@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="TileSet" subresource_count="41" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://gui/demo/floor_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/floor_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<ext_resource path="res://gui/demo/wall_shader.xml" type="CanvasItemMaterial"></ext_resource>
+	<ext_resource path="res://gui/demo/faceColor.png" type="Texture"></ext_resource>
+	<resource type="OccluderPolygon2D" path="local://1">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="2"> 			0, -22, 48, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			48, 0, 0, -22, 0, -44, 48, -22 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://3">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			-48, 0, 0, 22, 48, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			-48, 0, 0, -22, 48, 0, 0, 22 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://5">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			0, -22, 48, 0, 0, 22 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://6">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			48, 0, 0, 22, 0, -22 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://7">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			0, -22, -48, 0, 0, 22 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://8">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			-48, 0, 0, -22, 0, 22 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://9">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			-48, 0, 0, -22, 48, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://10">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			0, -22, 48, 0, -48, 0 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://11">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			-48, 0, 0, 22, 48, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://12">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			48, 0, 0, 22, -48, 0 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://13">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="2"> 			0, 22, 48, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://14">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 22, 0, 0, 48, -22, 48, 0 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://15">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="2"> 			-48, 0, 0, 22 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://16">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			-48, -22, 0, 0, 0, 22, -48, 0 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://17">
+		<bool name="closed"> False </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="2"> 			-48, 0, 0, -22 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://18">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, -44, 0, -22, -48, 0, -48, -22 </vector2_array>
+
+	</resource>
+	<main_resource>
+		<string name="0/name"> "floor1" </string>
+		<resource name="0/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="0/tex_offset"> 0, 28 </vector2>
+		<resource name="0/material" resource_type="CanvasItemMaterial" path="res://gui/demo/floor_shader.xml">  </resource>
+		<rect2 name="0/region"> 311, 760, 197, 151 </rect2>
+		<vector2 name="0/occluder_offset"> 98.5, 75.5 </vector2>
+		<resource name="0/occluder"></resource>		<vector2 name="0/navigation_offset"> 98.5, 75.5 </vector2>
+		<resource name="0/navigation"></resource>		<vector2 name="0/shape_offset"> 0, 0 </vector2>
+		<array name="0/shapes" len="0" shared="false">
+		</array>
+		<string name="1/name"> "floor2" </string>
+		<resource name="1/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="1/tex_offset"> 0, 28 </vector2>
+		<resource name="1/material" resource_type="CanvasItemMaterial" path="res://gui/demo/floor_shader.xml">  </resource>
+		<rect2 name="1/region"> 591, 772, 197, 151 </rect2>
+		<vector2 name="1/occluder_offset"> 98.5, 75.5 </vector2>
+		<resource name="1/occluder"></resource>		<vector2 name="1/navigation_offset"> 98.5, 75.5 </vector2>
+		<resource name="1/navigation"></resource>		<vector2 name="1/shape_offset"> 0, 0 </vector2>
+		<array name="1/shapes" len="0" shared="false">
+		</array>
+		<string name="2/name"> "block" </string>
+		<resource name="2/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="2/tex_offset"> 0, -60 </vector2>
+		<resource name="2/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="2/region"> 844, 527, 138, 180 </rect2>
+		<vector2 name="2/occluder_offset"> 69, 90 </vector2>
+		<resource name="2/occluder" resource_type="OccluderPolygon2D" path="local://3">  </resource>
+		<vector2 name="2/navigation_offset"> 69, 90 </vector2>
+		<resource name="2/navigation"></resource>		<vector2 name="2/shape_offset"> 69, 90 </vector2>
+		<array name="2/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://4">  </resource>
+		</array>
+		<string name="3/name"> "q_right" </string>
+		<resource name="3/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="3/tex_offset"> 0, -60 </vector2>
+		<resource name="3/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="3/region"> 665, 528, 139, 178 </rect2>
+		<vector2 name="3/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="3/occluder" resource_type="OccluderPolygon2D" path="local://5">  </resource>
+		<vector2 name="3/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="3/navigation"></resource>		<vector2 name="3/shape_offset"> 69.5, 89 </vector2>
+		<array name="3/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://6">  </resource>
+		</array>
+		<string name="4/name"> "q_left" </string>
+		<resource name="4/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="4/tex_offset"> 0, -60 </vector2>
+		<resource name="4/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="4/region"> 292, 528, 139, 178 </rect2>
+		<vector2 name="4/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="4/occluder" resource_type="OccluderPolygon2D" path="local://7">  </resource>
+		<vector2 name="4/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="4/navigation"></resource>		<vector2 name="4/shape_offset"> 69.5, 89 </vector2>
+		<array name="4/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://8">  </resource>
+		</array>
+		<string name="5/name"> "q_top" </string>
+		<resource name="5/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="5/tex_offset"> 0, -60 </vector2>
+		<resource name="5/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="5/region"> 479, 528, 139, 178 </rect2>
+		<vector2 name="5/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="5/occluder" resource_type="OccluderPolygon2D" path="local://9">  </resource>
+		<vector2 name="5/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="5/navigation"></resource>		<vector2 name="5/shape_offset"> 69.5, 89 </vector2>
+		<array name="5/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://10">  </resource>
+		</array>
+		<string name="6/name"> "q_bottom" </string>
+		<resource name="6/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="6/tex_offset"> 0, -60 </vector2>
+		<resource name="6/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="6/region"> 103, 528, 139, 178 </rect2>
+		<vector2 name="6/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="6/occluder" resource_type="OccluderPolygon2D" path="local://11">  </resource>
+		<vector2 name="6/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="6/navigation"></resource>		<vector2 name="6/shape_offset"> 69.5, 89 </vector2>
+		<array name="6/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://12">  </resource>
+		</array>
+		<string name="7/name"> "s_right_bottom" </string>
+		<resource name="7/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="7/tex_offset"> 0, -62 </vector2>
+		<resource name="7/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="7/region"> 480, 350, 139, 178 </rect2>
+		<vector2 name="7/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="7/occluder" resource_type="OccluderPolygon2D" path="local://13">  </resource>
+		<vector2 name="7/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="7/navigation"></resource>		<vector2 name="7/shape_offset"> 69.5, 89 </vector2>
+		<array name="7/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://14">  </resource>
+		</array>
+		<string name="8/name"> "s_left_bottom" </string>
+		<resource name="8/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="8/tex_offset"> 0, -62 </vector2>
+		<resource name="8/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="8/region"> 665, 350, 139, 178 </rect2>
+		<vector2 name="8/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="8/occluder" resource_type="OccluderPolygon2D" path="local://15">  </resource>
+		<vector2 name="8/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="8/navigation"></resource>		<vector2 name="8/shape_offset"> 69.5, 89 </vector2>
+		<array name="8/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://16">  </resource>
+		</array>
+		<string name="9/name"> "s_left_top" </string>
+		<resource name="9/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="9/tex_offset"> 0, -62 </vector2>
+		<resource name="9/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="9/region"> 292, 350, 139, 178 </rect2>
+		<vector2 name="9/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="9/occluder" resource_type="OccluderPolygon2D" path="local://17">  </resource>
+		<vector2 name="9/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="9/navigation"></resource>		<vector2 name="9/shape_offset"> 69.5, 89 </vector2>
+		<array name="9/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://18">  </resource>
+		</array>
+		<string name="10/name"> "s_right_top" </string>
+		<resource name="10/texture" resource_type="Texture" path="res://gui/demo/faceColor.png">  </resource>
+		<vector2 name="10/tex_offset"> -12, -62 </vector2>
+		<resource name="10/material" resource_type="CanvasItemMaterial" path="res://gui/demo/wall_shader.xml">  </resource>
+		<rect2 name="10/region"> 842, 350, 139, 178 </rect2>
+		<vector2 name="10/occluder_offset"> 69.5, 89 </vector2>
+		<resource name="10/occluder" resource_type="OccluderPolygon2D" path="local://1">  </resource>
+		<vector2 name="10/navigation_offset"> 69.5, 89 </vector2>
+		<resource name="10/navigation"></resource>		<vector2 name="10/shape_offset"> 69.5, 89 </vector2>
+		<array name="10/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://2">  </resource>
+		</array>
+
+	</main_resource>
+</resource_file>

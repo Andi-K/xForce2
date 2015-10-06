@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="CanvasItemMaterial" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<resource type="CanvasItemShader" path="local://1">
+		<dictionary name="_code" shared="false">
+			<string> "fragment" </string>
+			<string> "uniform texture normaltex;&#000a;vec4 ntex = tex(normaltex,UV);&#000a;ntex.rgb = ntex.rgb * vec3(-2,-2,1) - vec3(-1,-1,0);&#000a;vec2 tile_vec=vec2(47,22);&#000a;float r = asin(tile_vec.y / tile_vec.x);&#000a;mat3 rot_mat = mat3( vec3(1,0,0), vec3(0,cos(r),-sin(r)), vec3(0,sin(r),cos(r)));&#000a;NORMAL =  rot_mat * ntex.rgb;&#000a;&#000a;&#000a;&#000a;&#000a;" </string>
+			<string> "fragment_ofs" </string>
+			<int> 0 </int>
+			<string> "light" </string>
+			<string> "LIGHT_VEC.y=40; //from light towards up, where is the torch?&#000a;vec3 light_normal = normalize(vec3(LIGHT_VEC,-LIGHT_HEIGHT));&#000a;LIGHT=LIGHT_COLOR*COLOR*max(dot(-light_normal,NORMAL),0.0);&#000a;&#000a;" </string>
+			<string> "light_ofs" </string>
+			<int> 0 </int>
+			<string> "vertex" </string>
+			<string> "" </string>
+			<string> "vertex_ofs" </string>
+			<int> 0 </int>
+		</dictionary>
+
+	</resource>
+	<main_resource>
+		<resource name="shader/shader" resource_type="Shader" path="local://1">  </resource>
+		<int name="shader/shading_mode"> 0 </int>
+		<resource name="shader_param/normaltex"></resource>
+	</main_resource>
+</resource_file>
