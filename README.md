@@ -1,8 +1,9 @@
 # X-Force 2
 A game engine for round based tactic games.
 
-It is a rewrite of [X-Force:FFD] using the [Godot Engine]
- Goal is to provide
+It is a rewrite of [X-Force:FFD] using the [Godot Engine].
+
+Goal is to provide
  - a easier to maintenance Code base
  - (nearly) all features of X-Force:FFD 0.917
  - common requested improvements and features except multiplayer and realtime support
@@ -11,7 +12,7 @@ It is a rewrite of [X-Force:FFD] using the [Godot Engine]
 
 
 > X-Force:FFD is a game in the style of the old classics UFO: Enemy Unknown, XCOM: Terror from the Deep and XCOM: Apocalypse, where the player defended the earth with a military organization against an invasion from outer space. These classic weres at their time a unique mixture of research, strategy and tactics -- a mixture which hasn't been imitated very often since then.
-> 
+>
 > The implementing of all game aspects by gamesets and the gameset studio is the great strength of X-Force. Every interested gameset creator can provide all players with his own history and story, including new aliens and science projects.
 
 X-Force 2 will increase the strength of [X-Force:FFD] and provide more flexibility for gameset creators.
@@ -25,9 +26,11 @@ GPL 3?
 
 Format: X.Y.Z
 
- X = development Phase
- Y = a increase indicate a big or breaking change (0.2.0 is may not fully compatible to 0.1.0)
- Z = increase by every new data.pck download, set to 0 if Y is increased
+X = development Phase
+
+  Y = a increase indicate a big or breaking change (0.2.0 is may not fully compatible to 0.1.0)
+
+  Z = increase by every new data.pck download, set to 0 if Y is increased
 
 ### Development Phase "0" (current)
 
