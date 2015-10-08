@@ -18,6 +18,11 @@ Goal is to provide
 X-Force 2 will increase the strength of [X-Force:FFD] and provide more flexibility for gameset creators.
 Thus, it is not limited to "Humans vs Aliens" games.
 
+## Preview
+
+Download the [data.pck v0.0.2](http://www.gamefront.com/files/25261653/xforce2_data_0_0_2.zip) and extract it into your Godot 1.1 directory.
+If you don't have Godot 1.1 and don't want to edit something, you can use my high compressed [Windows binary (4.5 MiB)](http://www.gamefront.com/files/25257682/xforce2_w32.zip) / [Linux binary (4.3 MiB)](http://www.gamefront.com/files/25257683/xforce2_l32.zip)
+
 ## License
 
 GPL 3?
@@ -76,7 +81,7 @@ If you run Godot the first time ’Import’ the src/engine.cfg after this you c
 #### useful Links
 
  - [Git Guide](http://rogerdudler.github.io/git-guide/)
- - [Godot Manual](http://fr.flossmanuals.net/godot-game-engine/about-this-book/)
+ - [Godot Manual](http://fr.flossmanuals.net/godot-game-engine/about-this-book/) / [Non-English Manuals](http://www.godotengine.org/projects)
  - [Godot Tutorials](http://www.gamefromscratch.com/page/Godot-Game-Engine-tutorial-series.aspx)
  - [Godot Youtube Tutorials](https://www.youtube.com/playlist?list=PLPI26-KXCXpBtZGRJizz0cvU88nXB-G14)
  - [Markdown (.md) Howto](https://guides.github.com/features/mastering-markdown/)
