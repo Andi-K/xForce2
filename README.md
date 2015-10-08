@@ -1,7 +1,8 @@
 # X-Force 2
 A game engine for round based tactic games.
 
-It is a rewrite of [X-Force:FFD] using the [Godot Engine]
+It is a rewrite of [X-Force:FFD] using the [Godot Engine].
+
 Goal is to provide
  - a easier to maintenance Code base
  - (nearly) all features of X-Force:FFD 0.917
@@ -26,8 +27,10 @@ GPL 3?
 Format: X.Y.Z
 
 X = development Phase
-Y = a increase indicate a big or breaking change (0.2.0 is may not fully compatible to 0.1.0)
-Z = increase by every new data.pck download, set to 0 if Y is increased
+
+  Y = a increase indicate a big or breaking change (0.2.0 is may not fully compatible to 0.1.0)
+
+  Z = increase by every new data.pck download, set to 0 if Y is increased
 
 ### Development Phase "0" (current)
 
