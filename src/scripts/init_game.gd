@@ -5,7 +5,7 @@ var curent_page_node = null
 
 func _ready():
 	var data = get_node("/root/Data")
-	
+
 	data.curent["resolution"] = "FHD"
 	
 	if (data.config["play_intro"]):

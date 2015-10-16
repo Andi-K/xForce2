@@ -8,7 +8,9 @@ static func ntr(number, max_decimals = -1):
 		decimals_sep = "."
 	var thousands_sep = tr("THOUSANDS_SEP")
 	if thousands_sep == "THOUSANDS_SEP":
-		thousands_sep = ","
+#		thousands_sep = "\u202f" # narrow non-breaking space (missing in many fonts)
+#		thousands_sep = "\u00a0" # non-breaking space (missing in some fonts)
+		thousands_sep = " " # breaking space 
 	var parts = []
 	var deci
 	
@@ -44,4 +46,3 @@ static func ntr(number, max_decimals = -1):
 	if typeof(deci) != TYPE_NIL:
 		string += decimals_sep + deci
 	return string
-

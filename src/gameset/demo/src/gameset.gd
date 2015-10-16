@@ -32,7 +32,7 @@ func _ready():
 	# WARNING: this owerwites existing files!
 	# gs:// = save into the current gameset 
 	# user:// = save into user's home dir (configs) 
-#	data.save_cfg(objects.as_dict(), "gs://objects_new.dat")
+#	data.save_cfg(objects.as_dict(), "gs://objects_tmp.dat")
 
 	# the objects.dat don't include translatable Text!
 	# We have to create new translations files (*.csv)

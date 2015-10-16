@@ -197,9 +197,9 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 8 </int>
+							<int> 4 </int>
 							<string> "sources" </string>
-							<array  len="13" shared="false">
+							<array  len="14" shared="false">
 								<string> "res://scripts/data.gd" </string>
 								<string> "res://scripts/data/object-list.gd" </string>
 								<string> "res://scripts/data/ufopedia.gd" </string>
@@ -213,6 +213,7 @@
 								<string> "res://gui/share/fullscreen.gd" </string>
 								<string> "res://gui/share/music.gd" </string>
 								<string> "res://scripts/audio.gd" </string>
+								<string> "res://scripts/helper_func.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
